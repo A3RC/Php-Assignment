@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Submission</title>
+</head>
+<body>
+  <div>
+    <form action="index.php" method="post" name="form">
+      <div>Name: <input type="text" name="name" required></div>
+      <div>Address: <input type="text" name="address" required></div>
+      <div>Email: <input type="email" name="email" required></div>
+      <div>
+        Gender: 
+        <input type="radio" name="gender" value="male" required>Male
+        <input type="radio" name="gender" value="female" required>Female
+      </div>
+      <div><button type="submit">Submit</button></div>
+    </form>
+  </div>
+</body>
+</html>
